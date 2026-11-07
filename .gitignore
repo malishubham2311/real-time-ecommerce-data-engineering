@@ -1,0 +1,30 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+
+!.env.example
+
+# Spark
+checkpoints/
+spark-warehouse/
+metastore_db/
+
+# Logs
+*.log
+
+# Data files
+data/*.csv
+data/*.json
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
